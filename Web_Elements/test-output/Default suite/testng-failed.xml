@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Test_cases.DropDown_List">
+        <methods>
+          <include name="DropDown_Method_Two"/>
+          <include name="afterTest"/>
+          <include name="DropDown_Method_One"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Test_cases.DropDown_List -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
